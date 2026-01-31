@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test('Launch Google Chrome and open google.com', async ({ browser }) => {
+test('Launch Google Chrome and open google.com', {tag:'@glaunch'} ,async ({ browser }) => {
     const context = await browser.newContext();
     const page = await context.newPage();
     
