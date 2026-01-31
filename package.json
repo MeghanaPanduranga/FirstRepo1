@@ -1,0 +1,28 @@
+{
+  "name": "playwright",
+  "version": "1.0.0",
+  "description": "First line",
+  "main": "index.js",
+  "dependencies": {
+    "playwright": "^1.58.1",
+    "playwright-core": "^1.58.1",
+    "undici-types": "^7.16.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.58.1",
+    "@types/node": "^25.1.0"
+  },
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MeghanaPanduranga/FirstRepo1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/MeghanaPanduranga/FirstRepo1/issues"
+  },
+  "homepage": "https://github.com/MeghanaPanduranga/FirstRepo1#readme"
+}
