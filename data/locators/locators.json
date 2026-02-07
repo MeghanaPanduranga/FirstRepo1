@@ -1,0 +1,10 @@
+{
+  "vibecoding": {
+    "automationPractice": {
+      "playwrightTab": "a:has-text(\"PlaywrightPractice\")",
+      "usernameInput": "input[id*='username'], input[placeholder*='username' i], input[name*='username' i]",
+      "acceptTermsCheckbox": "input[type='checkbox']",
+      "startButton": "button:has-text('Start'), button:has-text('start')"
+    }
+  }
+}
