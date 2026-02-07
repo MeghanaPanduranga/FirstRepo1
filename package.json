@@ -4,15 +4,15 @@
   "description": "First line",
   "main": "index.js",
   "dependencies": {
-    "playwright": "^1.58.1",
-    "playwright-core": "^1.58.1",
-    "undici-types": "^7.16.0"
+    "sharp": "^0.32.6"
   },
   "devDependencies": {
     "@playwright/test": "^1.58.1",
     "@types/node": "^25.1.0"
   },
-  "scripts": {},
+  "scripts": {
+    "report:summary": "node scripts/report-summary.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MeghanaPanduranga/FirstRepo1.git"
